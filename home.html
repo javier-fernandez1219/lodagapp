@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LODAG</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/icon" href="img/favicon.ico">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-BI-XtuPP46-jGj4nMws-xhfYF2tQRYg&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script type="module" src="https://unpkg.com/@googlemaps/extended-component-library"></script>
+    <script src="./index.js"></script>
+
+
+
+<!-- Bootstrap CSS -->
+   <link href="https://fonts.cdnfonts.com/css/black-bubble" rel="stylesheet">   
+   <link href="https://fonts.cdnfonts.com/css/super-bubble" rel="stylesheet">                                    
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body class="background" style="height:100%; width: 100%;">
+            <div class="wrapper">
+                    <div class="logo">
+                        <a href="#"><img src="img/LODAG_Logo.png" alt="LODAG Logo"></a>
+                    </div>
+                    <div class="topnav" id="myTopnav"> 
+                        <a href="#home" class="active">Home</a>
+                        <a href="#about"><i class="fa-solid fa-person"></i> About Us</a>
+                        <a href="#services"><i class="fa-solid fa-scale-balanced"></i> Services</a>
+                        <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+            </div>
+
+
+            <div class="hero" id="home">
+                <div class="text container">
+                    <p class="pre-title"> Injury Protection</p>
+                    <h1 class="title"> Law Office of Domingo A Gonzalez </h1>
+                    <p class="post-title"> We help you in need </p>
+                </div>
+            </div>
+
+            <div class="about" id="about">
+                <div style="margin-left: 5vw; margin-right: 5vw;" class="category">
+                    <h2 style="text-align: center;"> <span class="hover-underline-animation"> About Us </span></h2>
+                    <p>We are a small law office located in Kendall, Florida, speciailizing in personal injury protection and bodily injury.
+                         I, Domingo A Gonzalez, have been working in PIP for oever 20 years and have found that I am super gay and love helping people and kissing dudes.</p>
+                    <button class="button"><span> Read More </span></button>
+                </div>
+                <div style="margin-left: 5vw; margin-right: 5vw;" class="category">
+                    <h2 style="text-align: center;"> <span class="hover-underline-animation"> Our Vision</span></h2>
+                    <p>We are a small law office located in Kendall, Florida, speciailizing in personal injury protection and bodily injury.
+                        I, Domingo A Gonzalez, have been working in PIP for oever 20 years and have found that I am super gay and love helping people and kissing dudes.</p>                    <button class="button"><span> Read More </span></button>
+                </div>
+            </div>
+
+            <div class="services container" id="services">
+                <div class="column">
+                    <div class="card">
+                        <h4>Personal Injury Protection</h4>
+                        <p> Car accidents </p>
+                        <p> Acccidents </p>
+                        <button class="cardbutton"><span> Read More </span></button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <h4> Bodily Injury</h4>
+                        <div class="specific-services">
+                            <p>Slip and Fall</p>
+                            <p> Injury during Accident </p>
+                        </div>
+                        <button class="cardbutton"><span> Read More </span></button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <h4> Traffic Tickets</h4>
+                        <p>DUIs</p>
+                        <p> ETC</p>
+                        <button class="cardbutton"><span> Read More </span></button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <h4> Immigration</h4>
+                        <p> DACA </p>
+                        <p> VISA 1099s </p>
+                        <button class="cardbutton"><span> Read More </span></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-us-container" id="contact" style="height:100%; width: 100%;">
+                <div class="contact-information-container">
+                    <h2> <span class="hover-underline-animation"> Contact Us! </span></h2>
+                    <p> Want a free consultation?</p>
+                    <div class="contact-info">
+                        <i class="fa fa-location-arrow"><span><a href="https://www.google.com/maps/@25.714281,-80.4127517,3a,75y,257.13h,90t/data=!3m6!1e1!3m4!1sSbxnDABNqoNpjFNysEuGpw!2e0!7i16384!8i8192?entry=ttu" target="_blank"> 5600 SWS 135th Ave, Suite 107, Miami, Fl, 33186</a> </span><br></i>
+                        <i class="fa-solid fa-envelope"><span><a href="mailto:domingopipmaster@hotmail.com"> domingopipmaster@hotmail.com</a> </span><br></i>
+                        <i class="fa fa-phone"><span><a href="tel:+1 3057239091"> (305) 723-9091</a> </span><br></i>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1797.3524314435458!2d-80.41449826161475!3d25.71419411093655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9c07cd8999a85%3A0xe375dd49a5c2096a!2s5600%20SW%20135th%20Ave%2C%20Miami%2C%20FL%2033183!5e0!3m2!1sen!2sus!4v1707341435830!5m2!1sen!2sus" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <div class="contact-us-form">
+                        <form action="send_email.php" method="post" id="contact-form">
+                            <label for="name">First Name</label>
+                            <input type="text" id="name" name="name" placeholder="Type your name..">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lname" placeholder="Type your last name..">
+                            <label for="mail">E-mail Address</label>
+                            <input type="text" id="mail" name="e-mail" placeholder="Type your e-mail..">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your case.." style="height: 200px"></textarea>
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer">
+                    <p>Copyright &copy;2024; Designed with &hearts; by<span class="designer">Javier Fernandez</span></p>
+                </div>
+            </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+
+</html>
